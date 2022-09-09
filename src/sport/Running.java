@@ -11,7 +11,7 @@ public class Running extends Training{
     @Override
     public String toString() {
         return "Беговая тренировка!" +
-                " Длительность: " + super.getTrainingTime() + " минут" +
+                " Длительность: " + getTrainingTime() + " минут" +
                 " Дистанция: " + distance + " км" +
                 " Килокалорий: " + caloriesBurned();
     }
