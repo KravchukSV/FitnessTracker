@@ -12,7 +12,7 @@ public class Crossfit extends Training{
     @Override
     public String toString() {
         return "Кроссфит тренировка!" +
-                " Длительность: " + super.getTrainingTime() + " минут" +
+                " Длительность: " + getTrainingTime() + " минут" +
                 " Максимальный вес снаряда: " + maxProjectileWeight + " кг" +
                 " Килокалорий: " + caloriesBurned();
     }
