@@ -9,7 +9,7 @@ public class Boxing extends Training {
     @Override
     public String toString() {
         return "Тренировка по боксу!" +
-                " Длительность: " + super.getTrainingTime() + " минут" +
-                " Килокалорий: " + super.caloriesBurned();
+                " Длительность: " + getTrainingTime() + " минут" +
+                " Килокалорий: " + caloriesBurned();
     }
 }
